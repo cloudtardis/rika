@@ -2,8 +2,8 @@
 Super Cool Live Stream Project @ Dapeng Bay!
 
 # Contributors:
-- AFU
-- Ballee
+- AFU - MDFK
+- Ballee - ball
 - Duncan
 - Stan - stanlee89@gmail.com
 
