@@ -1,5 +1,6 @@
-# rika
+# Rika
 Super Cool Live Stream Project @ Dapeng Bay!
+
 
 # Contributors:
 - AFU - MDFK
@@ -9,7 +10,13 @@ Super Cool Live Stream Project @ Dapeng Bay!
 
 
 
+<<<<<<< HEAD
+=======
 testing change!!!
 
 
+How to use GitHub Desktop:
 
+	Download URL: https://desktop.github.com/
+	Teaching blog: http://blog.kevinlinul.idv.tw/?p=369
+>>>>>>> refs/remotes/origin/AFU
