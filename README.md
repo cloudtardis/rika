@@ -16,6 +16,6 @@ How to use GitHub Desktop:
 
 
 # Environment:
-python 2.7.12 - https://www.python.org/downloads/
-numpy 1.11.1 - https://pypi.python.org/pypi/numpy#downloads
-opencv 2.4.13 - http://opencv.org/downloads.html
+- python 2.7.12 - https://www.python.org/downloads/
+- numpy 1.11.1 - https://pypi.python.org/pypi/numpy#downloads
+- opencv 2.4.13 - http://opencv.org/downloads.html
