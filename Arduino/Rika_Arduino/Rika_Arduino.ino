@@ -6,7 +6,6 @@
 #include <MPU6050_6Axis_MotionApps20.h>
 
 //pan(az) 0     tilt(alt) 1
-byte pinSpeaker = 6;
 byte pinBattery = 14;  //A0
 byte pinMotor[2] = {7,10};                    //馬達訊號pin腳位
 byte pinDir[2] = {8,11};                      //步進方向pin腳位
@@ -74,7 +73,6 @@ bool blinkState = false;
 
 void setup(){
   pinMode(4, INPUT);
-  pinMode(pinSpeaker,OUTPUT);
   pinMode(pinDir[0], OUTPUT);
   pinMode(pinDir[1], OUTPUT);
   pinMode(pinMotor[0], OUTPUT);
