@@ -1,0 +1,21 @@
+import RPi.GPIO as GPIO
+import time
+
+servoSingalPin = 7
+stepSingalPin = 11
+stepDirPin = 12
+stepSleepPin = 13
+limitSwitchPin = 15
+irlightPin = 16
+
+GPIO.setmode(GPIO.BOARD)
+
+GPIO.setup(servoSingalPin, GPIO.OUT)
+GPIO.setup(stepSingalPin, GPIO.OUT)
+GPIO.setup(stepDirPin, GPIO.OUT)
+GPIO.setup(stepSleepPin, GPIO.OUT)
+GPIO.setup(limitSwitchPin, GPIO.IN)
+GPIO.setup(irlightPin, GPIO.OUT)
+
+while True:
+	
