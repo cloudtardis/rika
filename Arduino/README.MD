@@ -1,15 +1,20 @@
-**Camera Gimbal with Servos And Remote Control**
-RIKA Part Arduino
+#Camera Gimbal with Servos And Remote Control
+Do everything on Pi!!!
 
-This code is for Uno!!!
-We can modify program(Timer) if we need to use Mega2560
+#Hardware BOM:
 
-Hardware:
-Arduino Uno
-Servo (or Stepper)			2
-MPU-6050(Accelerometer + Gyro)		1
-HMC5883L(Compass)			1
-GPS					?
+- Servo, x1, for beta rotation
+- Stepper, x1, for alpha rotation
+- limit switch, x1, for alpha calibration
 
-TTL Format:
-G code?
+
+
+# Communication Protocal USB SERIAL
+### (key:value)
+- a_rel : (+/- 50) //alpha rotation relative 
+- a_abs : (0~360) //alpha rotation absolut
+- b_rel : (+/- 50) //beta rotation relative
+- b_abs : (0~180) //beta rotation absolute. 0=down
+- irlight : (0,1) //IR light switch 0=off 1=on
+- cal : (1) //begin calibration
+
