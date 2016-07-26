@@ -11,7 +11,7 @@ stepDirPin = 12
 stepSleepPin = 13
 - limit switch, x1, for alpha calibration  
 limitSwitchPin = 15
-- irlight,  
+- irlight  
 irlightPin = 16
 
 
