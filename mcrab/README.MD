@@ -26,3 +26,11 @@ irlightPin = 16
 - irlight : (0,1) //IR light switch 0=off 1=on 2=auto
 - cal : (1) //begin calibration
 
+## Variable
+- alpha = [180, 0]  # [rightNowAngle, leftAngle]
+- irlight = 2      # 0=off 1=on 2=auto  
+**alphaMotorVariable**
+- stepAngle = 0.45
+- stepSpeed = 0.0008   (s)
+- //stepGeer = 0
+- threadSwitch = 0
