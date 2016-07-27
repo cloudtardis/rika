@@ -33,7 +33,7 @@ motorThread = threading.Thread(target=motorTd,name='motorThread')
 
 def motorTd(alphaStep):
 	GPIO.output(stepSleepPin, GPIO.HIGH)
-	while alphaStep >= 0 && threadSwitch >= 1:
+	while alphaStep >= 0 & threadSwitch >= 1:
 		GPIO.output(stepSingalPin, GPIO.LOW)
 		time.sleep(stepSpeed)
 		GPIO.output(stepSingalPin, GPIO.HIGH)
